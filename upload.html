@@ -11,13 +11,11 @@
 			<a href="index.html">Home</a>
 			<a href="upload.html">Upload</a>
 			<a href="index.html">Account</a>
+			<a href="info.html">Info</a>
 		</div>
-		
-		<form id="upload" action="./upload.php" method="POST" enctype="multipart/form-data">
-		</form>
-		<div id="dropzone">
-			<br><br>
-				Drag your image here to upload it
-		</div>
+		<form action="upload.php" method="post" enctype="multipart/form-data">
+		Select image to upload:
+		<input type="file" name="fileToUpload" id="fileToUpload">
+		<input type="submit" value="Upload Image" name="submit">
 	</body>
 </html>
